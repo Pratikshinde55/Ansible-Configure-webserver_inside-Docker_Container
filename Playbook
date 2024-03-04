@@ -1,0 +1,38 @@
+- hosts: all
+  become: yes
+  tasks:
+    - name: Install Docker
+      yum:
+        name: docker
+        state: present
+
+    - name: Start Docker service
+      systemd:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Pull httpd image from Docker Hub
+      docker_image:
+        name: httpd
+        source: pull
+
+    - name: Run httpd container
+      docker_container:
+        name: my_httpd_container
+        image: httpd
+        ports:
+          - "8080:80"
+        restart_policy: always
+
+    - name: Copy HTML code to /var/www/html on container
+      copy:
+        src: /root/ps/index.html
+        dest: /var/www/html/index.html
+      notify: Restart httpd container
+
+  handlers:
+    - name: Restart httpd container
+      docker_container:
+        name: my_httpd_container
+        state: restarted
