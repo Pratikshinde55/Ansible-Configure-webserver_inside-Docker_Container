@@ -30,6 +30,12 @@ On ansible master node i create workspace for this configuration named as "mycod
 ![Screenshot 2024-03-05 173437](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/1e002af3-07d2-4a67-bcf5-c2ac69edbbc7)
 
 
+
+Play ansible playbook 
+
+![Screenshot 2024-03-05 172636](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/e6d5cf8c-a116-4d96-943f-d6c3f94c4cc3)
+
+
 write an ansible playbook that does the following operations in managed nodes:
 1. download docker package ,
 2. start and enable docker service , 
