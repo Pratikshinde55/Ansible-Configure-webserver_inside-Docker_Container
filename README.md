@@ -62,7 +62,7 @@ NOTE: Ansible-playbook name must be in " .yml "
                 state: started
                 enabled: yes
 
-3. Create a file which will add to my apache conatiner create file in path /root/code :
+3. Create a file which will add to my apache container create file in path /root/code :
 
    File module in ansible-playbook which help to create directory.
 
