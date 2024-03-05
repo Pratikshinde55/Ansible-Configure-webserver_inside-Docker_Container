@@ -12,6 +12,20 @@
         name: docker
         state: started
         enabled: yes
+    - name: install python package
+      package: 
+        name: python3
+        state: present
+
+    - name: create file for adding container volume
+      file:
+        state: directory
+        path: /root/code1
+
+    - name: copy local code or deploy webpage
+      copy:
+        src: index.html
+        dest: /root/code1
 
     - name: Pull httpd image from Docker Hub
       docker_image:
@@ -24,16 +38,6 @@
         image: httpd
         ports:
           - "8080:80"
-        restart_policy: always
-
-    - name: Copy HTML code to /var/www/html on container
-      copy:
-        src: /root/ps/index.html
-        dest: /var/www/html/index.html
-      notify: Restart httpd container
-
-  handlers:
-    - name: Restart httpd container
-      docker_container:
-        name: my_httpd_container
-        state: restarted
+        volumes:
+          - /root/code1/index.html/:/var/www/html/index.html
+        restart_policy: always      
