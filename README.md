@@ -41,6 +41,17 @@ NOTE: Ansible-playbook name must be in " .yml "
         #vim myweb.yml
 
 
+💫Here some information about playbook task💫
+ 1. download docker package:
+
+       
+
+
+
+
+
+
+
 Run ansible playbook :
 
     
