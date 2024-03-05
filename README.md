@@ -45,8 +45,13 @@ NOTE: Ansible-playbook name must be in " .yml "
  1. download docker package:
 
        
+      tasks:
+        - name: Install Docker
+           yum:
+             name: docker
+             state: present
 
-
+           
 
 
 
