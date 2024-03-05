@@ -34,7 +34,10 @@ My ansible-playbook name is "myweb.yml" ,
 
 NOTE: Ansible-playbook name must be in " .yml " 
 
-Play ansible playbook 
+Run ansible playbook :
+
+    
+      #ansible-playbook myweb.yml
 
 ![Screenshot 2024-03-05 172636](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/e6d5cf8c-a116-4d96-943f-d6c3f94c4cc3)
 
