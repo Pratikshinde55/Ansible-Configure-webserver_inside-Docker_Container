@@ -53,7 +53,7 @@ NOTE: Ansible-playbook name must be in " .yml "
                    state: present
 
            
-
+2. start and enable docker service:
 
 
 
