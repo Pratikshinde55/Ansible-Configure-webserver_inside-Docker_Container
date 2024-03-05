@@ -30,9 +30,16 @@ On ansible master node i create workspace for this configuration named as "mycod
 ![Screenshot 2024-03-05 173437](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/1e002af3-07d2-4a67-bcf5-c2ac69edbbc7)
 
 
+
+open or write ansible-playbook :
+
 My ansible-playbook name is "myweb.yml" ,
 
 NOTE: Ansible-playbook name must be in " .yml " 
+
+
+        #vim myweb.yml
+
 
 Run ansible playbook :
 
