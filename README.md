@@ -42,6 +42,8 @@ Run ansible playbook :
 ![Screenshot 2024-03-05 172636](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/e6d5cf8c-a116-4d96-943f-d6c3f94c4cc3)
 
 
+
+
 ❄️After ansible-playbook run successfully, on Target node Automation take place & configure our tasks .
 
 ![Screenshot 2024-03-05 173327](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/c10ceda7-3104-45ef-ab5e-b804128d97f1)
