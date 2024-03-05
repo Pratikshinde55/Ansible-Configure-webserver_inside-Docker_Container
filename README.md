@@ -17,7 +17,8 @@ For this configuration Ansible master node need Docker collection,
 
 Use this command to install Docker community collection:
 
-#ansible-galaxy collection install community.docker
+
+       #ansible-galaxy collection install community.docker
 
 
 write an ansible playbook that does the following operations in managed nodes:
