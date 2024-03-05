@@ -20,6 +20,8 @@ Use this command to install Docker community collection:
 
        #ansible-galaxy collection install community.docker
 
+![Screenshot 2024-03-05 171855](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/4ef212b5-59dd-4dd7-bf5a-b9ee542aa78d)
+
 
 write an ansible playbook that does the following operations in managed nodes:
 1. download docker package ,
