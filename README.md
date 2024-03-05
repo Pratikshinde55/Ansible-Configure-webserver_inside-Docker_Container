@@ -90,9 +90,24 @@ NOTE: Ansible-playbook name must be in " .yml "
                       name: httpd
                       source: pull
 
+ 6. Launch Docker container using httpd image & exposed this httpd container for clients. Here i have atached volume to container this volume contain my webpage
+    "index.html" from master node to Target node to docker httpd container:
 
 
+                  - name: Run httpd container
+                    docker_container:
+                      name: my_httpd_container
+                      image: httpd
+                      state: started
+                      exposed_ports: 80
+                      ports:
+                       - "8080:80"
+                      volumes:
+                       - /root/code1/index.html/:/usr/local/apache2/htdocs/index.html
+                      restart_policy: always
 
+
+    
 Run ansible playbook :
 
     
