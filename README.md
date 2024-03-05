@@ -82,6 +82,13 @@ NOTE: Ansible-playbook name must be in " .yml "
                         src: index.html
                         dest: /root/code1
 
+ 5. Pull httpd image for docker container: 
+
+
+                  - name: Pull httpd image from Docker Hub
+                    docker_image:
+                      name: httpd
+                      source: pull
 
 
 
