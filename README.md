@@ -13,6 +13,7 @@ For this Configuration I take two instance one for Ansible-Master node & Ansible
 ⚡prerequisites:
 
    Ansible ssh configuration (set-up) master and target node must be done and ansible installed.
+   
   https://github.com/Pratikshinde55/Ansible-setup-onAWS.git 
   (Use above link for ssh configuration)
   
