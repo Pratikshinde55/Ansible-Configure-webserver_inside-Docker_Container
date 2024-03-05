@@ -7,6 +7,9 @@
 
 For this Configuration I take two instance one for Ansible-Master node & Ansible-Target node, I use AWS cloud ans EC2 instance is "Amazon Linux".
 
+![Screenshot 2024-03-05 173517](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/7497cd99-984b-4f13-a0d6-f79eb1787b74)
+
+
 ⚡prerequisites:
 
    Ansible ssh configuration (set-up) master and target node must be done and ansible installed.
