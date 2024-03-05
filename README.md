@@ -47,6 +47,14 @@ Run ansible playbook :
 ![Screenshot 2024-03-05 173327](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/c10ceda7-3104-45ef-ab5e-b804128d97f1)
 
 
+Now From Browser i can access my webserver :
+On google - "< public ip of target node > : port no /index.html"
+
+![Screenshot 2024-03-05 173455](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/8287070f-5632-4ed9-89e8-c93775ebcdef)
+
+
+
+
 write an ansible playbook that does the following operations in managed nodes:
 1. download docker package ,
 2. start and enable docker service , 
