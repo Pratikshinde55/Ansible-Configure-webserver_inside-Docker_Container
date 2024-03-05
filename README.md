@@ -48,10 +48,9 @@ NOTE: Ansible-playbook name must be in " .yml "
             tasks:
 
                - name: Install Docker
-
-                  yum:
-             name: docker
-             state: present
+                 yum:
+                   name: docker
+                   state: present
 
            
 
