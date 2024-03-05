@@ -56,7 +56,11 @@ NOTE: Ansible-playbook name must be in " .yml "
 2. start and enable docker service:
 
 
-
+            - name: Start Docker service
+              systemd:
+                name: docker
+                state: started
+                enabled: yes
 
 Run ansible playbook :
 
