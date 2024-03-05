@@ -64,7 +64,7 @@ NOTE: Ansible-playbook name must be in " .yml "
 
 3. Create a file which will add to my apache conatiner create file in path /root/code :
 
-   File is module which help to create directory in ansible-playbook 
+   File module in ansible-playbook which help to create directory.
 
 
                 - name: create file for adding container volume
@@ -137,10 +137,5 @@ Also from my laptop command prompt: using "curl" command
 
 
 
-write an ansible playbook that does the following operations in managed nodes:
-1. download docker package ,
-2. start and enable docker service , 
-3. pull httpd image from docker hub ,
-4.  Run docker container using httpd image and expose it to public ,
-5. copy local html code to /var/www/html on container .
+
 
