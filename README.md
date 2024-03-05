@@ -72,7 +72,8 @@ NOTE: Ansible-playbook name must be in " .yml "
                       state: directory
                        path: /root/code1
             
-4. Local code or local webpage copy: 
+4. Local code or local webpage copy:
+   
   Copy module in ansible-playbook helps to copy my local master node code to target node dest: /root/code1 this destination is point 3 i have created 
 
 
