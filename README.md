@@ -16,7 +16,7 @@ For this Configuration I take two instance one for Ansible-Master node & Ansible
    
 ❄NOTE:
 
-For this configuration Ansible master node need Docker collection,
+For this configuration Ansible master node need Docker collection, and also install python3-pip.
 
 Use this command to install Docker community collection:
 
@@ -24,6 +24,10 @@ Use this command to install Docker community collection:
        #ansible-galaxy collection install community.docker
 
 ![Screenshot 2024-03-05 171855](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/4ef212b5-59dd-4dd7-bf5a-b9ee542aa78d)
+
+On ansible master node i create workspace for this configuration named as "mycode" & create code(webpage) which deploy on apache webserver.
+
+![Screenshot 2024-03-05 173437](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/1e002af3-07d2-4a67-bcf5-c2ac69edbbc7)
 
 
 write an ansible playbook that does the following operations in managed nodes:
