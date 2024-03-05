@@ -1,4 +1,5 @@
 #Playbook for launching Docker Container using Httpd image
+
 - hosts: all
   become: yes
   tasks:
@@ -36,8 +37,10 @@
       docker_container:
         name: my_httpd_container
         image: httpd
+        state: started
+        exposed_ports: 80
         ports:
           - "8080:80"
         volumes:
-          - /root/code1/index.html/:/var/www/html/index.html
-        restart_policy: always      
+          - /root/code1/index.html/:/usr/local/apache2/htdocs/index.html
+        restart_policy: always   
