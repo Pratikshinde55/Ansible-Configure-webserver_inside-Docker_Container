@@ -3,7 +3,7 @@
 - hosts: all
   become: yes
   tasks:
-    - name: "Install Docker"
+    - name: Install Docker
       yum:
         name: docker
         state: present
