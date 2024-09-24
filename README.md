@@ -42,7 +42,7 @@ NOTE: Ansible-playbook name must be extension " **.yml** "
 
 ### Here some information about playbook tasks:
 
- 1. download docker package:
+ 1. **download Docker package**:
 
        
             tasks:
@@ -53,7 +53,7 @@ NOTE: Ansible-playbook name must be extension " **.yml** "
                    state: present
 
            
-2. start and enable docker service:
+2. **Start and enable Docker service**:
 
 
             - name: Start Docker service
@@ -62,7 +62,7 @@ NOTE: Ansible-playbook name must be extension " **.yml** "
                 state: started
                 enabled: yes
 
-3. Create a file which will add to my apache container create file in path /root/code :
+3. **Create a file which will add to my apache container create file in path /root/code** :
 
    File module in ansible-playbook which help to create directory.
 
@@ -72,7 +72,7 @@ NOTE: Ansible-playbook name must be extension " **.yml** "
                       state: directory
                        path: /root/code1
             
-4. Local code or local webpage copy:
+4. **Local code or local Webpage copy**:
    
     Copy module in ansible-playbook helps to copy my local master node code to target node dest: /root/code1 this destination is point 3 i have created 
 
@@ -82,7 +82,7 @@ NOTE: Ansible-playbook name must be extension " **.yml** "
                         src: index.html
                         dest: /root/code1
 
- 5. Pull httpd image for docker container: 
+ 5. **Pull httpd image for Docker Container**: 
 
 
                   - name: Pull httpd image from Docker Hub
@@ -108,10 +108,9 @@ NOTE: Ansible-playbook name must be extension " **.yml** "
 
 
     
-Run ansible playbook :
+### Run ansible playbook :
 
-    
-      #ansible-playbook myweb.yml
+    ansible-playbook myweb.yml
 
 ![Screenshot 2024-03-05 172636](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/e6d5cf8c-a116-4d96-943f-d6c3f94c4cc3)
 
