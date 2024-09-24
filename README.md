@@ -12,19 +12,18 @@ For this Configuration I take two instance one for Ansible-Master node & Ansible
 
 ⚡prerequisites:
 
-   Ansible ssh configuration (set-up) master and target node must be done and ansible installed.
+Ansible ssh configuration (set-up) master and target node must be done and ansible installed.
    
-  [Ansible-master-target-SSH-Setup-onAWS](https://github.com/Pratikshinde55/Ansible-setup-onAWS.git) 
-  (Use given link for ssh configuration)
+[Ansible-master-target-SSH-Setup-onAWS](https://github.com/Pratikshinde55/Ansible-setup-onAWS.git) 
+(Use given link for ssh configuration)
   
-NOTE:
+- NOTE:
 
 For this configuration Ansible master node need Docker collection, and also install python3-pip .
 
-Use this command to install Docker community collection:
+Use this command to install **Docker community collection**:
 
-
-       #ansible-galaxy collection install community.docker
+      ansible-galaxy collection install community.docker
 
 ![Screenshot 2024-03-05 171855](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/4ef212b5-59dd-4dd7-bf5a-b9ee542aa78d)
 
