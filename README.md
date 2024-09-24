@@ -1,6 +1,4 @@
-# Ansible-Playbook-LaunchDocker-container
-
-🌟Configure webserver inside Docker by using Ansible automation🌟
+# Configure webserver inside Docker by using Ansible automation
 
 ![Screenshot 2024-03-05 174420](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/8d1dccb8-16de-4aa8-aba6-6a13e5c78993)
 
@@ -10,7 +8,7 @@ For this Configuration I take two instance one for Ansible-Master node & Ansible
 ![Screenshot 2024-03-05 173517](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/7497cd99-984b-4f13-a0d6-f79eb1787b74)
 
 
-⚡prerequisites:
+### prerequisites:
 
 Ansible ssh configuration (set-up) master and target node must be done and ansible installed.
    
@@ -42,7 +40,8 @@ NOTE: Ansible-playbook name must be extension " **.yml** "
       vim myweb.yml
 
 
-💫Here some information about playbook tasks💫
+### Here some information about playbook tasks:
+
  1. download docker package:
 
        
