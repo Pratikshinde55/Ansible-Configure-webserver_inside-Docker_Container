@@ -130,7 +130,7 @@ NOTE: Ansible-playbook name must be extension " **.yml** "
 ![Screenshot 2024-03-05 173455](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/8287070f-5632-4ed9-89e8-c93775ebcdef)
 
 
-Also from my laptop command prompt: using "curl" command
+**Also from my laptop command prompt: using "curl" command**
 
 ![Screenshot 2024-03-05 173048](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/8718ac9e-3259-4e68-a775-1f44b09ed0dc)
 
