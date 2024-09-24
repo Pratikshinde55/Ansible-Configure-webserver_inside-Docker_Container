@@ -90,8 +90,8 @@ NOTE: Ansible-playbook name must be extension " **.yml** "
                       name: httpd
                       source: pull
 
- 6. Launch Docker container using httpd image & exposed this httpd container for clients. Here i have atached volume to container this volume contain my webpage
-    "index.html" from master node to Target node to docker httpd container:
+ 6. **Launch Docker container using httpd image & exposed this httpd container for clients. Here i have atached volume to container this volume contain my webpage
+    "index.html" from master node to Target node to docker httpd container:**
 
 
                   - name: Run httpd container
@@ -117,13 +117,13 @@ NOTE: Ansible-playbook name must be extension " **.yml** "
 
 
 
-❄️After ansible-playbook run successfully, on Target node Automation take place & configure our tasks .
+**After ansible-playbook run successfully, on Target node Automation take place & configure our tasks**
 
 ![Screenshot 2024-03-05 173327](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/c10ceda7-3104-45ef-ab5e-b804128d97f1)
 
 
 
-⭐Now From Browser i can access my webserver :
+### Now From Browser i can access my Webserver :
 
   On google - "< public ip of target node > : port no /index.html"
 
