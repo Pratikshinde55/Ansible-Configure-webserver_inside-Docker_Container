@@ -37,10 +37,9 @@ open or write ansible-playbook :
 
 My ansible-playbook name is "myweb.yml" ,
 
-NOTE: Ansible-playbook name must be in " .yml " 
+NOTE: Ansible-playbook name must be extension " **.yml** " 
 
-
-        #vim myweb.yml
+      vim myweb.yml
 
 
 💫Here some information about playbook tasks💫
