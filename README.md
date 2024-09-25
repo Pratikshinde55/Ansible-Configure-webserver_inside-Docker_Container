@@ -1,4 +1,6 @@
-# Configure webserver inside Docker by using Ansible automation
+# Configure webserver inside Docker by using Ansible Automation
+Using Ansible-playbook lanuch Docker Container on worker node and run Httpd Container which is linked to local folder where put webpage & this Container is exposed to World and
+then access Webpage from browser using IP and Port number of worker node.
 
 ![Screenshot 2024-03-05 174420](https://github.com/Pratikshinde55/Ansible-Playbook-LaunchDocker-container/assets/145910708/8d1dccb8-16de-4aa8-aba6-6a13e5c78993)
 
